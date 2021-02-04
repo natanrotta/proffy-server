@@ -1,0 +1,21 @@
+--Type
+yarn add typescript -D //Adiciona typescript no projeto
+yarn tsc --init //Cria config typescript
+yarn add ts-node-dev -D  //Hot reload
+
+--express
+yarn add express //micro framework
+yarn add @types/express -D
+
+--Banco de dados
+yarn add knex sqlite3
+
+(Problemas Com a instalação do SQLITE)
+apt-get install -y build-essential
+sudo apt-get install gcc g++ make
+curl -sL https://deb.nodesource.com/setup_13.x | sudo -E bash -
+sudo apt-get update
+sudo apt-get upgrade -y
+sudo apt-get install -y nodejs build-essential
+
+ls /usr/bin/python*
