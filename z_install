@@ -19,3 +19,6 @@ sudo apt-get upgrade -y
 sudo apt-get install -y nodejs build-essential
 
 ls /usr/bin/python*
+
+--Permite todas as conexões
+yarn add cors
